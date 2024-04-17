@@ -1,0 +1,2 @@
+app/code/community/Silex/EmailExtensions/ app/code/community/Silex/EmailExtensions/
+app/etc/modules/Silex_EmailExtensions.xml app/etc/modules/Silex_EmailExtensions.xml

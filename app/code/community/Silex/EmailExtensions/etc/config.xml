@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Silex_EmailExtensions>
+            <version>1.0.0</version>
+        </Silex_EmailExtensions>
+    </modules>
+    <global>
+        <models>
+            <core>
+                <rewrite>
+                    <email_queue>Silex_EmailExtensions_Model_Core_Email_Queue</email_queue>
+                </rewrite>
+            </core>
+            <sales>
+                <rewrite>
+                    <email_template>Silex_EmailExtensions_Model_Sales_Email_Template</email_template>
+                    <order_creditmemo>Silex_EmailExtensions_Model_Sales_Order_Creditmemo</order_creditmemo>
+                    <order_invoice>Silex_EmailExtensions_Model_Sales_Order_Invoice</order_invoice>
+                    <order_shipment>Silex_EmailExtensions_Model_Sales_Order_Shipment</order_shipment>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+</config>

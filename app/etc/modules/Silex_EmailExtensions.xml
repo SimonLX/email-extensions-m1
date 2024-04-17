@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Silex_EmailExtensions>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Silex_EmailExtensions>
+    </modules>
+</config>
